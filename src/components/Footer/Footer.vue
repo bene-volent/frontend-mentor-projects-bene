@@ -16,7 +16,7 @@ import { Icon } from '@iconify/vue';
 footer{
     background-color: rgb(228, 228, 228);
     text-align: center;
-    font-size: var(--size-5);
+    font-size: var(--size-4);
     padding-block: var(--size-8);
     .github{
         display: flex;
