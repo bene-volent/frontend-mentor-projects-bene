@@ -2,6 +2,8 @@
 import Footer from './components/Footer/Footer.vue';
 import Header from './components/Header/Header.vue';
 import Projects from './components/Projects/Projects.vue';
+
+
 </script>
 
 <template>

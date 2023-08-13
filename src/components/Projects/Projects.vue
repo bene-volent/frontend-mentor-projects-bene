@@ -38,8 +38,10 @@ export default {
                     { duration: 350, fill: "forwards", easing: "ease" }
                 )
 
-                document.body.style.overflowY="hidden"
+                document.body.style.overflowY = "hidden"
             })
+
+
         },
         closeProjectDetails(projectDetailsEl) {
             console.log(projectDetailsEl.classList)
@@ -51,15 +53,26 @@ export default {
             )
             setTimeout(() => {
                 this.currentProject = null
-                document.body.style.overflowY="auto"
+                document.body.style.overflowY = "auto"
 
             }, 350)
         }
     },
     mounted() {
         this.getProjects();
+
+        document.body.addEventListener("keydown", (event) => {
+            if (event.key === "Escape") {
+                const projectDetails = document.querySelector(".projectDetails")
+                if (projectDetails) {
+                    this.closeProjectDetails(projectDetails)
+                }
+            }
+
+        })
     },
-    components: { Project, ProjectDetails }
+    components: { Project, ProjectDetails },
+
 }
 
 
@@ -86,7 +99,7 @@ export default {
 
 <style lang="scss" >
 .projects {
-    
+
 
     .wrapper {
         margin-block: var(--size-12);
