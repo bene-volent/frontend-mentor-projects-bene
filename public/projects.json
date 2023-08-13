@@ -1,0 +1,193 @@
+{
+    "projects": [{
+            "img": "/image/fm-images/19.jpg",
+            "title": "Intro component with sign-up form",
+            "jsReq": true,
+            "diff": 1,
+            "live": "https://intro-signup-bene.vercel.app/",
+            "repo": "https://github.com/bene-volent/intro-signup",
+            "challenge": "https://www.frontendmentor.io/challenges/intro-component-with-signup-form-5cf91bd49edda32581d28fd1",
+            "desc": "Practice building out a sign-up form complete with client-side validation using JavaScript."
+        },
+        {
+            "img": "/image/fm-images/18.jpg",
+            "title": "Base Apparel coming soon page",
+            "jsReq": true,
+            "diff": 1,
+            "live": "https://base-apparel-bene.vercel.app/",
+            "repo": "https://github.com/bene-volent/base-apparel-bene",
+            "challenge": "https://www.frontendmentor.io/challenges/base-apparel-coming-soon-page-5d46b47f8db8a7063f9331a0",
+            "desc": "This layout looks simple enough, but there are some interesting details to it that will test your CSS skills. You'll also get to practice basic form validation."
+        },
+        {
+            "img": "/image/fm-images/17.jpg",
+            "title": "Four card feature section",
+            "jsReq": false,
+            "diff": 1,
+            "live": "https://four-card-bene.vercel.app/",
+            "repo": "https://github.com/bene-volent/four-card-feature-section",
+            "challenge": "https://www.frontendmentor.io/challenges/four-card-feature-section-weK1eFYK",
+            "desc": "A nice layout-based challenge for beginners. This will test anyone who is new to multi-column and responsive layouts."
+        },
+        {
+            "img": "/image/fm-images/16.jpg",
+            "title": "Article preview component",
+            "jsReq": true,
+            "diff": 1,
+            "live": "https://article-preview-component-bene.vercel.app/",
+            "repo": "https://github.com/bene-volent/article-preview-component",
+            "challenge": "https://www.frontendmentor.io/challenges/article-preview-component-dYBN_pYFT",
+            "desc": "Practice your layout skills with this article preview component. There's lots of fun to be had playing around with animations for the sharing icons as well."
+        },
+        {
+            "img": "/image/fm-images/15.jpg",
+            "title": "Social proof section",
+            "jsReq": false,
+            "diff": 1,
+            "live": "https://social-proof-section-bene.vercel.app/",
+            "repo": "https://github.com/bene-volent/social-proof-section",
+            "challenge": "https://www.frontendmentor.io/challenges/social-proof-section-6e0qTv_bA",
+            "desc": "This project will test your layout skills. If you're starting to get confident with Flexbox or Grid, this will provide a nice challenge!"
+        },
+
+        {
+            "img": "/image/fm-images/14.jpg",
+            "title": "FAQ accordion card",
+            "jsReq": true,
+            "diff": 1,
+            "live": "https://faq-component-bene.vercel.app/",
+            "repo": "https://github.com/bene-volent/faq-component",
+            "challenge": "https://www.frontendmentor.io/challenges/faq-accordion-card-XlyjD0Oam",
+            "desc": "In this challenge, you'll be building out an FAQ accordion. This is an extremely common front-end pattern, so it's a great opportunity to get some practice in!"
+        },
+        {
+            "img": "/image/fm-images/13.jpg",
+            "title": "Profile card component",
+            "jsReq": false,
+            "diff": 1,
+            "live": "https://bene-volent.github.io/profile-card-component/",
+            "repo": "https://github.com/bene-volent/profile-card-component",
+            "challenge": "frontendmentor.io/challenges/profile-card-component-cfArpWshJ",
+            "desc": "This is a perfect challenge to test your layout skills. The card layout doesn't shift, so it's also great for those that haven't dived into responsive websites yet!"
+        },
+        {
+            "img": "/image/fm-images/12.jpg",
+            "title": "3-column preview card component",
+            "jsReq": false,
+            "diff": 1,
+            "live": "https://three-column-preview-component.vercel.app/#",
+            "repo": "https://github.com/bene-volent/threeColumn-preview-component",
+            "challenge": "https://www.frontendmentor.io/challenges/3column-preview-card-component-pH92eAR2-",
+            "desc": "This challenge is perfect if you're just getting started. The shift between the layouts will be a nice test if you're new to building responsive projects."
+        },
+        {
+            "img": "/image/fm-images/11.jpg",
+            "title": "Stats preview card component",
+            "jsReq": false,
+            "diff": 1,
+            "live": "https://stats-preview-component-tau.vercel.app/",
+            "repo": "https://github.com/bene-volent/stats-preview-component",
+            "challenge": "https://www.frontendmentor.io/challenges/stats-preview-card-component-8JqbgoU62",
+            "desc": "This is a great small challenge to help get you used to building to a design. There's no JS in this project, so you'll be able to focus on your HTML & CSS skills."
+        }, {
+            "img": "/image/fm-images/10.jpg",
+            "title": "Order summary component",
+            "jsReq": false,
+            "diff": 1,
+            "live": "https://order-summary-component-nu-lake.vercel.app/",
+            "repo": "https://github.com/bene-volent/order-summary-component",
+            "challenge": "https://www.frontendmentor.io/challenges/order-summary-component-QlPmajDUj/hub",
+            "desc": "A perfect project for newbies who are starting to build confidence with layouts!"
+        },
+        {
+            "img": "/image/fm-images/9.jpg",
+            "title": "Interactive rating component",
+            "jsReq": false,
+            "diff": 1,
+            "live": "https://interactive-rating-card-bene.vercel.app/",
+            "repo": "https://github.com/bene-volent/interactive-rating-component",
+            "challenge": "https://www.frontendmentor.io/challenges/interactive-rating-component-koxpeBUmI/hub",
+            "desc": "This is a nice, small project to practice handling user interactions and updating the DOM. Perfect for anyone who has learned the basics of JavaScript!"
+        },
+        {
+            "img": "/image/fm-images/8.jpg",
+            "jsReq": true,
+            "title": "Results summary component",
+            "diff": 1,
+            "live": "https://bene-volent.github.io/results-summary-component-main/",
+            "repo": "https://github.com/bene-volent/results-summary-component-main",
+            "challenge": "https://www.frontendmentor.io/challenges/results-summary-component-CE_K6s0maV/hub",
+            "desc": "This challenge has something for everyone. It’s a HTML and CSS only project, but we’ve also provided a JSON file of the test results for anyone wanting to practice JS."
+        },
+        {
+            "img": "/image/fm-images/7.jpg",
+            "jsReq": false,
+            "title": "Product preview card component",
+            "diff": 1,
+            "live": "https://product-preview-card-component-main-green-alpha.vercel.app/",
+            "repo": "https://github.com/bene-volent/product-preview-card-component-main",
+            "challenge": "https://www.frontendmentor.io/challenges/product-preview-card-component-GO7UmttRfa/hub",
+            "desc": "This HTML & CSS-only challenge will be perfect for anyone starting to build responsive projects."
+        },
+        {
+            "img": "/image/fm-images/6.jpg",
+            "jsReq": true,
+            "title": "Rock, Paper, Scissors game",
+            "diff": 4,
+            "live": "https://odinprojects-bene.vercel.app/projects/rock-paper-scissors/",
+            "repo": "https://github.com/bene-volent/odin-project-repo/tree/main/projects/rock-paper-scissors",
+            "challenge": "https://www.frontendmentor.io/challenges/rock-paper-scissors-game-pTgwgvgH/hub",
+            "desc": "This challenge will test your HTML, CSS and JavaScript skills. There's even a Rock, Paper, Scissors, Lizard, Spock version if you really want to challenge yourself."
+        },
+        {
+            "img": "/image/fm-images/5.jpg",
+            "jsReq": false,
+            "title": "Fylo landing page with two column layout",
+            "diff": 2,
+            "live": "https://fylo-landing-bene.vercel.app/",
+            "repo": "https://github.com/bene-volent/fylo-landing-junior",
+            "challenge": "https://www.frontendmentor.io/challenges/fylo-landing-page-with-two-column-layout-5ca5ef041e82137ec91a50f5/hub",
+            "desc": "This project is great if you're starting to get confident with slightly more complex layouts. The second section with the testimonial area will provide a nice challenge."
+        },
+        {
+            "img": "/image/fm-images/4.jpg",
+            "jsReq": false,
+            "title": "Huddle landing page with alternating feature blocks",
+            "diff": 2,
+            "live": "https://huddle-theta-six.vercel.app/",
+            "repo": "https://github.com/bene-volent/huddle-landing-page",
+            "challenge": "https://www.frontendmentor.io/challenges/huddle-landing-page-with-alternating-feature-blocks-5ca5f5981e82137ec91a5100/hub",
+            "desc": "This challenge is perfect if you're wanting to practice your layout skills. If you're starting to get a bit more confident laying out a web page, give this project a go."
+        },
+        {
+            "img": "/image/fm-images/3.jpg",
+            "jsReq": false,
+            "title": "Testimonials Grid Section",
+            "diff": 2,
+            "live": "https://testimonial-grid-livid.vercel.app/",
+            "repo": "https://github.com/bene-volent/testimonial-grid",
+            "challenge": "https://www.frontendmentor.io/challenges/testimonials-grid-section-Nnw6J7Un7/hub",
+            "desc": "This challenge will be perfect practice for anyone wanting to test their CSS Grid skills. Grid is such a powerful addition to CSS, so it's worth getting to grips with it!"
+        },
+        {
+            "img": "/image/fm-images/2.jpg",
+            "jsReq": false,
+            "title": "NFT preview card component",
+            "diff": 1,
+            "live": "https://bene-volent.github.io/nft-preview-component",
+            "repo": "https://github.com/bene-volent/nft-preview-component",
+            "challenge": "https://www.frontendmentor.io/challenges/nft-preview-card-component-SbdUL_w0U/hub",
+            "desc": "This HTML & CSS only challenge is perfect for anyone just starting out or anyone wanting a small project to play around with."
+        },
+        {
+            "img": "/image/fm-images/1.jpg",
+            "jsReq": false,
+            "title": "QR code component",
+            "diff": 1,
+            "live": "https://bene-volent.github.io/qr-code-component",
+            "repo": "https://github.com/bene-volent/qr-code-component",
+            "challenge": "https://www.frontendmentor.io/challenges/qr-code-component-iux_sIO_H",
+            "desc": "A perfect first challenge if you're new to HTML and CSS. The card layout doesn't shift, so it's ideal if you haven't learned about building responsive layouts yet."
+        }
+    ]
+}
