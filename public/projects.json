@@ -1,5 +1,15 @@
 {
-    "projects": [{
+    "projects": [
+        {
+            "img": "/image/fm-images/20.jpg",
+            "title": "Single price grid component",
+            "jsReq": false,
+            "diff": 1,
+            "live": "https://single-price-grid-bene.vercel.app/",
+            "repo": "https://github.com/bene-volent/single-price-grid",
+            "challenge": "https://www.frontendmentor.io/challenges/single-price-grid-component-5ce41129d0ff452fec5abbbc",
+            "desc": "In this challenge, you will build out the pricing component to the designs provided. This is perfect for beginners and people who want to complete a smaller challenge."
+        },{
             "img": "/image/fm-images/19.jpg",
             "title": "Intro component with sign-up form",
             "jsReq": true,
