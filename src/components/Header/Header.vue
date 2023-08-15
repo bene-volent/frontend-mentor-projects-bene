@@ -52,7 +52,7 @@ import Navigation from './Navigation.vue';
             font-weight: 400;
         }
         &:focus{
-        outline: 1px solid black;
+            outline: rgb(104, 190, 205) dotted 3px;
             outline-offset: 4px;
         }
 
