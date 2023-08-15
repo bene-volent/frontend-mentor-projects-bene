@@ -63,7 +63,7 @@ import { Icon } from "@iconify/vue"
 
         }
         &:focus{
-        outline: 1px solid black;
+        outline: rgb(104, 190, 205) dotted 3px
 
         }
 

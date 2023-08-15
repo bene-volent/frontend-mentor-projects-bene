@@ -212,7 +212,7 @@ export default {
 
             top: 100%;
             left: 0;
-            background-color: var(--underline-color);
+            background-color: rgb(62, 84, 163);;
             // display;
             transform-origin: center center;
             transform: scaleX(0);
@@ -221,7 +221,7 @@ export default {
         }
 
         &:focus {
-            outline: 1px solid black;
+            outline: rgb(104, 190, 205) dotted 3px;
 
         }
 
