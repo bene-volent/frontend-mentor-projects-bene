@@ -1,5 +1,14 @@
 {
-    "projects": [
+    "projects": [{
+            "img": "/image/fm-images/21.jpg",
+            "title": "Ping single column coming soon page",
+            "jsReq": true,
+            "diff": 1,
+            "live": "https://ping-single-column-bene.vercel.app/",
+            "repo": "https://github.com/bene-volent/ping-single-column",
+            "challenge": "https://www.frontendmentor.io/challenges/ping-single-column-coming-soon-page-5cadd051fec04111f7b848da",
+            "desc": "This challenge is great for beginners and offers a chance to practice basic client-side form validation."
+        },
         {
             "img": "/image/fm-images/20.jpg",
             "title": "Single price grid component",
@@ -106,7 +115,7 @@
             "diff": 1,
             "live": "https://order-summary-component-nu-lake.vercel.app/",
             "repo": "https://github.com/bene-volent/order-summary-component",
-            "challenge": "https://www.frontendmentor.io/challenges/order-summary-component-QlPmajDUj/hub",
+            "challenge": "https://www.frontendmentor.io/challenges/order-summary-component-QlPmajDUj",
             "desc": "A perfect project for newbies who are starting to build confidence with layouts!"
         },
         {
@@ -116,7 +125,7 @@
             "diff": 1,
             "live": "https://interactive-rating-card-bene.vercel.app/",
             "repo": "https://github.com/bene-volent/interactive-rating-component",
-            "challenge": "https://www.frontendmentor.io/challenges/interactive-rating-component-koxpeBUmI/hub",
+            "challenge": "https://www.frontendmentor.io/challenges/interactive-rating-component-koxpeBUmI",
             "desc": "This is a nice, small project to practice handling user interactions and updating the DOM. Perfect for anyone who has learned the basics of JavaScript!"
         },
         {
@@ -126,7 +135,7 @@
             "diff": 1,
             "live": "https://bene-volent.github.io/results-summary-component-main/",
             "repo": "https://github.com/bene-volent/results-summary-component-main",
-            "challenge": "https://www.frontendmentor.io/challenges/results-summary-component-CE_K6s0maV/hub",
+            "challenge": "https://www.frontendmentor.io/challenges/results-summary-component-CE_K6s0maV",
             "desc": "This challenge has something for everyone. It’s a HTML and CSS only project, but we’ve also provided a JSON file of the test results for anyone wanting to practice JS."
         },
         {
@@ -136,7 +145,7 @@
             "diff": 1,
             "live": "https://product-preview-card-component-main-green-alpha.vercel.app/",
             "repo": "https://github.com/bene-volent/product-preview-card-component-main",
-            "challenge": "https://www.frontendmentor.io/challenges/product-preview-card-component-GO7UmttRfa/hub",
+            "challenge": "https://www.frontendmentor.io/challenges/product-preview-card-component-GO7UmttRfa",
             "desc": "This HTML & CSS-only challenge will be perfect for anyone starting to build responsive projects."
         },
         {
@@ -146,7 +155,7 @@
             "diff": 4,
             "live": "https://odinprojects-bene.vercel.app/projects/rock-paper-scissors/",
             "repo": "https://github.com/bene-volent/odin-project-repo/tree/main/projects/rock-paper-scissors",
-            "challenge": "https://www.frontendmentor.io/challenges/rock-paper-scissors-game-pTgwgvgH/hub",
+            "challenge": "https://www.frontendmentor.io/challenges/rock-paper-scissors-game-pTgwgvgH",
             "desc": "This challenge will test your HTML, CSS and JavaScript skills. There's even a Rock, Paper, Scissors, Lizard, Spock version if you really want to challenge yourself."
         },
         {
@@ -156,7 +165,7 @@
             "diff": 2,
             "live": "https://fylo-landing-bene.vercel.app/",
             "repo": "https://github.com/bene-volent/fylo-landing-junior",
-            "challenge": "https://www.frontendmentor.io/challenges/fylo-landing-page-with-two-column-layout-5ca5ef041e82137ec91a50f5/hub",
+            "challenge": "https://www.frontendmentor.io/challenges/fylo-landing-page-with-two-column-layout-5ca5ef041e82137ec91a50f5",
             "desc": "This project is great if you're starting to get confident with slightly more complex layouts. The second section with the testimonial area will provide a nice challenge."
         },
         {
@@ -166,7 +175,7 @@
             "diff": 2,
             "live": "https://huddle-theta-six.vercel.app/",
             "repo": "https://github.com/bene-volent/huddle-landing-page",
-            "challenge": "https://www.frontendmentor.io/challenges/huddle-landing-page-with-alternating-feature-blocks-5ca5f5981e82137ec91a5100/hub",
+            "challenge": "https://www.frontendmentor.io/challenges/huddle-landing-page-with-alternating-feature-blocks-5ca5f5981e82137ec91a5100",
             "desc": "This challenge is perfect if you're wanting to practice your layout skills. If you're starting to get a bit more confident laying out a web page, give this project a go."
         },
         {
@@ -176,7 +185,7 @@
             "diff": 2,
             "live": "https://testimonial-grid-livid.vercel.app/",
             "repo": "https://github.com/bene-volent/testimonial-grid",
-            "challenge": "https://www.frontendmentor.io/challenges/testimonials-grid-section-Nnw6J7Un7/hub",
+            "challenge": "https://www.frontendmentor.io/challenges/testimonials-grid-section-Nnw6J7Un7",
             "desc": "This challenge will be perfect practice for anyone wanting to test their CSS Grid skills. Grid is such a powerful addition to CSS, so it's worth getting to grips with it!"
         },
         {
@@ -186,7 +195,7 @@
             "diff": 1,
             "live": "https://bene-volent.github.io/nft-preview-component",
             "repo": "https://github.com/bene-volent/nft-preview-component",
-            "challenge": "https://www.frontendmentor.io/challenges/nft-preview-card-component-SbdUL_w0U/hub",
+            "challenge": "https://www.frontendmentor.io/challenges/nft-preview-card-component-SbdUL_w0U",
             "desc": "This HTML & CSS only challenge is perfect for anyone just starting out or anyone wanting a small project to play around with."
         },
         {
