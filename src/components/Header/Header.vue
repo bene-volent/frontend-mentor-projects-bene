@@ -49,7 +49,7 @@ import Navigation from './Navigation.vue';
 
         &_title {
             display: none;
-            font-weight: 400;
+            font-weight: 500;
         }
         &:focus{
             outline: rgb(104, 190, 205) dotted 3px;
