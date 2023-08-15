@@ -208,11 +208,11 @@ export default {
             display: inline-block;
             position: absolute;
             width: 100%;
-            height: 3px;
+            height: 2px;
 
             top: 100%;
             left: 0;
-            background-color: black;
+            background-color: var(--underline-color);
             // display;
             transform-origin: center center;
             transform: scaleX(0);

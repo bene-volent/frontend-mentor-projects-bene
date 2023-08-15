@@ -65,6 +65,8 @@ import Projects from './components/Projects/Projects.vue';
   --size-34: 8.5rem;
   --size-35: 8.75rem;
   --size-36: 9rem;
+
+  --underline-color:hsl(351, 84%, 55%);
 }
 
 .container {
