@@ -4,7 +4,7 @@
             <div class="wrapper">
                 <a href="/" class="header__logo">
                     <img class="header__logo_img" src="../../assets/fm-logo.png" alt="Frontend Mentor">
-                    <h2 class="header__logo_title">Frontend Mentor Projects</h2>
+                    <h2 class="header__logo_title"><span class="wavy__underline">Frontend</span> Mentor Projects</h2>
                 </a>
                 <Navigation></Navigation>
 
@@ -78,4 +78,12 @@ import Navigation from './Navigation.vue';
         }
     }
 }
+.wavy__underline{
+    text-decoration: underline;
+    text-decoration-color: hsl(351 84% 55% / 0.5);
+    text-decoration-style: wavy;
+    text-decoration-thickness: 2.5px;
+    text-underline-offset: 0.5ch;
+}
+
 </style>
