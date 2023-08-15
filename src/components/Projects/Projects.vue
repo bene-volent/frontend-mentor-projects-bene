@@ -84,6 +84,9 @@ export default {
         <div class="container container--large">
             <div class="wrapper">
                 <h1 class="projects__heading">All Frontend Mentor Projects</h1>
+                <p class="projects__count">Current Count : <span>
+                        {{ projectsData.length }}
+                    </span></p>
                 <ul class="projects__list">
                     <Project class="project__item" v-for="( proj, index ) in projectsData" :imgLink="proj.img"
                         :title="proj.title" :jsReq="proj.jsReq" :diff="proj.diff"
@@ -109,6 +112,19 @@ export default {
         font-size: var(--size-6);
         text-align: center;
         margin-block: var(--size-8);
+    }
+
+    &__count {
+        text-align: center;
+        font-size: var(--size-5);
+        font-weight: 500;
+
+        span{
+            font-weight: 700;
+            text-decoration: underline var(--underline-color) wavy;
+            text-decoration-thickness: 1px;
+            text-underline-offset: 0.25ch;
+        }
     }
 
     &__list {
