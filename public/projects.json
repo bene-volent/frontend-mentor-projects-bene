@@ -1,5 +1,14 @@
 {
     "projects": [{
+            "img": "/image/fm-images/22.jpg",
+            "title": "Huddle landing page with a single introductory section",
+            "jsReq": false,
+            "diff": 1,
+            "live": "https://huddle-landing-page-bene.vercel.app/",
+            "repo": "https://github.com/bene-volent/huddle-landing-page-bene",
+            "challenge": "https://www.frontendmentor.io/challenges/huddle-landing-page-with-a-single-introductory-section-B_2Wvxgi0",
+            "desc": "A perfect challenge for beginners, this project will get you working with a two column layout."
+        },{
             "img": "/image/fm-images/21.jpg",
             "title": "Ping single column coming soon page",
             "jsReq": true,
