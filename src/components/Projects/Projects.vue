@@ -49,7 +49,6 @@ export default {
 
         },
         closeProjectDetails(projectDetailsEl) {
-            console.log(projectDetailsEl.classList)
             projectDetailsEl.animate(
                 [
                     { scale: 1 }, { scale: 0 }

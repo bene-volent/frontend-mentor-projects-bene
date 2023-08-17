@@ -56,11 +56,7 @@ import { Icon } from "@iconify/vue"
 
 
 export default {
-    methods: {
-        getSelf() {
-            console.log(this.$refs.projectDetails)
-        }
-    },
+    
     props: {
         project: {
             type: Object,
