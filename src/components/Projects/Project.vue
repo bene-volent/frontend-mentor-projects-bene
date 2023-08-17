@@ -3,7 +3,8 @@
         <article class="project">
 
 
-            <picture class="project__picture" @click="projectOpen()"><img class="project__img" loading="lazy" v-bind:src="imgLink" v-bind:alt="title"></picture>
+            <picture class="project__picture" @click="projectOpen()"><img class="project__img" v-bind:src="imgLink"
+                    v-bind:alt="title"></picture>
             <div class="project__content">
                 <h3 class="project__heading" @click="projectOpen()">{{ title }}</h3>
                 <div class="project__props">
@@ -58,9 +59,9 @@ const props = defineProps(
             type: Number,
             required: true
         },
-        projectOpen:{
-            type:Function,
-            required:true
+        projectOpen: {
+            type: Function,
+            required: true
         }
 
     }
@@ -80,8 +81,8 @@ const props = defineProps(
     grid-template-rows: auto 1fr;
 
     cursor: pointer;
-
-    animation: fade-up 500ms ease forwards;
+    opacity: 0;
+    animation: fade-up 750ms ease forwards;
 
     &__picture {
         overflow: hidden;
@@ -113,7 +114,7 @@ const props = defineProps(
         font-weight: 500;
 
         width: fit-content;
-    
+
         &::after {
             content: "";
             display: inline-block;
@@ -201,14 +202,15 @@ const props = defineProps(
         }
     }
 
-    &__help{
+    &__help {
 
         margin-top: var(--size-1);
 
         opacity: 0.7;
-        text-underline-offset: var(--size-1 );
+        text-underline-offset: var(--size-1);
         text-decoration-thickness: 4px;
-        &:hover{
+
+        &:hover {
             text-decoration: underline;
         }
     }
@@ -239,26 +241,29 @@ const props = defineProps(
 }
 
 @media (width > 600px) {
-    .project{
-        &__content{
+    .project {
+        &__content {
             padding: var(--size-6) var(--size-8);
         }
-        &__heading{
+
+        &__heading {
             font-size: var(--size-6);
         }
-        &__req{
+
+        &__req {
             font-size: var(--size-5);
         }
     }
 }
+
 @keyframes fade-up {
-    0%{
+    0% {
         opacity: 0;
         translate: 0 20px;
     }
-    100%{
+
+    100% {
         opacity: 1;
         translate: 0 0;
     }
-}
-</style>
+}</style>

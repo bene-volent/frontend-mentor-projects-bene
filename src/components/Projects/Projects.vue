@@ -63,7 +63,10 @@ export default {
             }, 350)
         },
         readMoreProjects() {
-            this.currentMax += this.maxBatch
+            setTimeout(()=>{
+                this.currentMax += this.maxBatch
+
+            },200)
         }
     },
     mounted() {
