@@ -5,7 +5,7 @@
         </button>
         <div class="projectDetails__container">
             <article class="projectDetails__project">
-                <picture class="projectDetails__picture"><img v-bind:src="project.img" v-bind:alt="project.title"></picture>
+                <picture class="projectDetails__picture"><img v-bind:src="project.img" loading='lazy' v-bind:alt="project.title"></picture>
                 <div class="projectDetails__content">
                     <h3 class="projectDetails__heading">{{ this.project.title }}</h3>
                     <div class="projectDetails__props">

@@ -81,6 +81,8 @@ import Projects from './components/Projects/Projects.vue';
 }
 
 body {
+  background-color:#fff;
+  color: black;
   font-family: "Barlow", system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
 }
 
