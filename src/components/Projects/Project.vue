@@ -81,6 +81,8 @@ const props = defineProps(
 
     cursor: pointer;
 
+    animation: fade-up 500ms ease forwards;
+
     &__picture {
         overflow: hidden;
     }
@@ -247,6 +249,16 @@ const props = defineProps(
         &__req{
             font-size: var(--size-5);
         }
+    }
+}
+@keyframes fade-up {
+    0%{
+        opacity: 0;
+        translate: 0 20px;
+    }
+    100%{
+        opacity: 1;
+        translate: 0 0;
     }
 }
 </style>

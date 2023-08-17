@@ -1,13 +1,21 @@
 <script >
+import { ref } from 'vue'
 import Project from './Project.vue'
 import ProjectDetails from "./ProjectDetails.vue"
 
 
 export default {
+    setup() {
+
+        let currentProject = ref(null)
+        let currentMax = ref(6)
+
+        return { currentProject, currentMax }
+    },
     data() {
         return {
-            currentProject: null,
-            projectsData: []
+            maxBatch: 6,
+            projectsData: [],
         };
     },
     methods: {
@@ -16,19 +24,16 @@ export default {
                 return response.json();
             }).then(data => {
                 this.projectsData = data.projects;
-                console.log(data.projects);
+                for (let projectIndex in this.projectsData) {
+
+                    this.projectsData[projectIndex].id = projectIndex
+                }
             }).catch((error) => {
                 alert("Error Occured! Kindly reload the page");
             });
         },
         openProjectDetails(projectIndex) {
             this.currentProject = projectIndex
-            // projectDetailsEl.animate(
-            //     [
-            //         { scale: 0 }, { scale: 1 }
-            //     ],
-            //     { duration: 350, fill: "forwards", easing: "ease" }
-            // )
             setTimeout(() => {
                 const projectDetailsEl = document.querySelector(".projectDetails")
                 projectDetailsEl.animate(
@@ -56,6 +61,9 @@ export default {
                 document.body.style.overflowY = "auto"
 
             }, 350)
+        },
+        readMoreProjects() {
+            this.currentMax += this.maxBatch
         }
     },
     mounted() {
@@ -70,6 +78,7 @@ export default {
             }
 
         })
+
     },
     components: { Project, ProjectDetails },
 
@@ -88,12 +97,15 @@ export default {
                         {{ projectsData.length }}
                     </span></p>
                 <ul class="projects__list">
-                    <Project class="project__item" v-for="( proj, index ) in projectsData" :imgLink="proj.img"
-                        :title="proj.title" :jsReq="proj.jsReq" :diff="proj.diff"
+                    <Project class="project__item"
+                        v-for="( proj, index ) in projectsData.slice(0, Math.min(currentMax, projectsData.length))"
+                        :imgLink="proj.img" :title="proj.title" :jsReq="proj.jsReq" :diff="proj.diff"
                         :projectOpen="() => openProjectDetails(index)"></Project>
                 </ul>
             </div>
         </div>
+        <button type="button" class="projects__readMore" v-if="currentMax < projectsData.length"
+            @click="readMoreProjects()">Read More</button>
         <ProjectDetails v-if="currentProject != null" :project="projectsData[currentProject]"
             :closeProjectDetails="closeProjectDetails"></ProjectDetails>
     </section>
@@ -119,7 +131,7 @@ export default {
         font-size: var(--size-5);
         font-weight: 500;
 
-        span{
+        span {
             font-weight: 700;
             text-decoration: underline var(--underline-color) wavy;
             text-decoration-thickness: 1px;
@@ -136,6 +148,35 @@ export default {
         gap: var(--size-12);
 
         margin-block: var(--size-12);
+    }
+
+    &__readMore {
+        display: block;
+        position: relative;
+        margin-inline: auto;
+        margin-block: -1rem var(--size-12);
+        font-size: var(--size-5);
+        // padding:  0;
+
+        &::after {
+            content: "";
+            display: inline-block;
+            position: absolute;
+            width: 100%;
+            height: 2px;
+
+            top: 100%;
+            left: 0;
+            background-color: var(--underline-color);
+            // display;
+            transform: scaleX(1);
+            transition: transform ease 350ms;
+
+        }
+
+        &:hover::after {
+            transform: scaleX(0);
+        }
     }
 }
 

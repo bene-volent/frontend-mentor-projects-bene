@@ -7,7 +7,7 @@
             <article class="projectDetails__project">
                 <picture class="projectDetails__picture"><img v-bind:src="project.img" v-bind:alt="project.title"></picture>
                 <div class="projectDetails__content">
-                    <h3 class="projectDetails__heading">{{ project.title }}</h3>
+                    <h3 class="projectDetails__heading">{{ this.project.title }}</h3>
                     <div class="projectDetails__props">
                         <span class="project__req">
                             <span class="html">HTML</span>
@@ -37,11 +37,11 @@
                     </div>
                     <p class="projectDetails__desc">{{ project.desc }}</p>
                     <ul class="link__list">
-                        <li class="link__item"><a v-bind:href="project.live" class="link__link" target="_blank"
+                        <li class="link__item"><a v-bind:href="this.project.live" class="link__link" target="_blank"
                                 v-bind:data-type="live">Live</a></li>
-                        <li class="link__item"><a v-bind:href="project.repo" class="link__link" target="_blank"
+                        <li class="link__item"><a v-bind:href="this.project.repo" class="link__link" target="_blank"
                                 v-bind:data-type="repo">Repo</a></li>
-                        <li class="link__item"><a v-bind:href="project.challenge" class="link__link" target="_blank"
+                        <li class="link__item"><a v-bind:href="this.project.challenge" class="link__link" target="_blank"
                                 v-bind:data-type="challenge">Try it</a></li>
                     </ul>
                 </div>
@@ -49,6 +49,7 @@
         </div>
     </div>
 </template>
+
 
 <script >
 import { Icon } from "@iconify/vue"
@@ -70,11 +71,12 @@ export default {
             required: true
         }
     },
-
+    
     components: {
         Icon,
-    }
+    },
 }
+
 
 
 
@@ -212,7 +214,8 @@ export default {
 
             top: 100%;
             left: 0;
-            background-color: rgb(62, 84, 163);;
+            background-color: rgb(62, 84, 163);
+            ;
             // display;
             transform-origin: center center;
             transform: scaleX(0);
@@ -279,4 +282,5 @@ export default {
         }
 
     }
-}</style>
+}
+</style>
