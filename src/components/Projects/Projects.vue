@@ -94,7 +94,7 @@ export default {
     <section class="projects">
         <div class="container container--large">
             <div class="wrapper">
-                <h1 class="projects__heading">All Frontend Mentor Projects</h1>
+                <h2 class="projects__heading">All Frontend Mentor Projects</h2>
                 <p class="projects__count">Current Count : <span>
                         {{ projectsData.length }}
                     </span></p>

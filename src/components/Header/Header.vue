@@ -4,7 +4,7 @@
             <div class="wrapper">
                 <a href="/" class="header__logo">
                     <img class="header__logo_img" src="../../assets/fm-logo.png" alt="Frontend Mentor">
-                    <h2 class="header__logo_title"><span class="wavy__underline">Frontend</span> Mentor Projects</h2>
+                    <h1 class="header__logo_title"><span class="wavy__underline">Frontend</span> Mentor Projects</h1>
                 </a>
                 <Navigation></Navigation>
 
@@ -28,12 +28,14 @@ import Navigation from './Navigation.vue';
         display: flex;
         justify-content: space-between;
         align-items: center;
-        padding-block: var(--size-8);
+        // padding-block: var(--size-8);
     }
 
     &__logo {
         display: flex;
         gap: var(--size-6);
+        padding-right: 1rem;
+        border-right: 1px solid  rgb(104, 190, 205);
 
         >*+* {
             flex: 1 0 auto;

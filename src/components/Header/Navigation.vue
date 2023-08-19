@@ -9,7 +9,7 @@
                 <a class="nav__link" href="http://linkedin.com/in/raghv-r" target="_blank">
                     <Icon class="icon" icon="mdi:linkedin"></Icon>
 
-                    <span class="nav__text">LinkedIn</span>
+                    <span class="nav__text ">LinkedIn</span>
                 </a>
             </li>
             <li><a href="https://www.frontendmentor.io/profile/bene-volent" target="_blank" class="nav__link nav__portfolio">
@@ -82,7 +82,7 @@ import { Icon } from "@iconify/vue"
         }
 
         img {
-            width: 60px;
+            width: var(--size-12);
             border-radius: 50%;
         }
 
