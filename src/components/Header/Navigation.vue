@@ -3,13 +3,13 @@
         <ul class="nav__list">
             <li class="nav__item"><a class="nav__link" href="http://github.com/bene-volent" target="_blank">
                     <Icon class="icon" icon="mdi:github"></Icon>
-                    <span class="nav__text">Github</span>
+                    <span class="nav__text sr-only-small">Github</span>
                 </a></li>
             <li class="nav__item">
                 <a class="nav__link" href="http://linkedin.com/in/raghv-r" target="_blank">
                     <Icon class="icon" icon="mdi:linkedin"></Icon>
 
-                    <span class="nav__text ">LinkedIn</span>
+                    <span class="nav__text sr-only-small">LinkedIn</span>
                 </a>
             </li>
             <li><a href="https://www.frontendmentor.io/profile/bene-volent" target="_blank" class="nav__link nav__portfolio">
@@ -72,10 +72,7 @@ import { Icon } from "@iconify/vue"
         }
 
     }
-    &text{
-        display: none;
-    }
-
+   
     &portfolio {
         &::after {
             content: none;
@@ -90,11 +87,5 @@ import { Icon } from "@iconify/vue"
 
 }
 
-@media (width > 600px) {
-    .nav{
-        &__text{
-            display: block;
-        }
-    }
-}
+
 </style>
