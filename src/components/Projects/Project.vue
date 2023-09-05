@@ -221,11 +221,11 @@ const props = defineProps(
 }
 
 .js {
-    color: #cf6390;
+    color: hsl(335, 53%, 60%);;
 }
 
 .css {
-    color: #3e54a3;
+    color: hsl(227, 45%, 44%);
 }
 
 .diff {
