@@ -1,5 +1,15 @@
 {
     "projects": [{
+        "img": "/image/fm-images/23.jpg",
+        "title": "Sunnyside agency landing page",
+        "jsReq": true,
+        "diff": 2,
+        "live": "https://sunnyside-agency-bene.vercel.app/",
+        "repo": "https://github.com/bene-volent/sunnyside-agency-bene",
+        "challenge": "https://www.frontendmentor.io/challenges/sunnyside-agency-landing-page-7yVs3B6ef",
+        "desc": "This challenge will be a perfect test of your layout and responsive skills. There's a tiny bit of JS for the mobile menu, but the focus is HTML & CSS."
+    },
+        {
             "img": "/image/fm-images/22.jpg",
             "title": "Huddle landing page with a single introductory section",
             "jsReq": false,
