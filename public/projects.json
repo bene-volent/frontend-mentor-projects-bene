@@ -1,5 +1,14 @@
 {
     "projects": [{
+        "img": "/image/fm-images/24.jpg",
+        "title": "Newsletter sign-up form with success message",
+        "jsReq": true,
+        "diff": 2,
+        "live": "https://newsletter-sign-up-bene.vercel.app/",
+        "repo": "https://github.com/bene-volent/newsletter-sign-up-bene",
+        "challenge": "https://www.frontendmentor.io/challenges/newsletter-signup-form-with-success-message-3FC1AZbNrv",
+        "desc": "This will test your skills with basic form structure, validation, and submission. The success state will also be an excellent opportunity to work with DOM manipulation."
+    },{
         "img": "/image/fm-images/23.jpg",
         "title": "Sunnyside agency landing page",
         "jsReq": true,
