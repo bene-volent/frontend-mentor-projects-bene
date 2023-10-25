@@ -1,5 +1,14 @@
 {
     "projects": [{
+        "img": "/image/fm-images/26.jpg",
+        "title": "New Homepage",
+        "jsReq": true,
+        "diff": 3,
+        "live": "https://news-homepage-bene.vercel.app/",
+        "repo": "https://github.com/bene-volent/news-homepage-bene",
+        "challenge": "https://www.frontendmentor.io/challenges/news-homepage-H6SWTa1MFl",
+        "desc": "This news homepage will be an excellent opportunity to practice your CSS Grid skills. There will be lots of tricky decisions to make and plenty of learning opportunities!"
+    },{
         "img": "/image/fm-images/25.jpg",
         "title": "Todo app",
         "jsReq": true,
